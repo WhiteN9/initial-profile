@@ -1,0 +1,99 @@
+﻿/* text formatting*/
+.text-header {
+    font-family: 'Book Antiqua';
+    font-size: 18px;
+}
+.text-main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.text-align, p, h1, h3 {
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+header > ol, footer {
+    font-size: 14px;
+}
+.text-header, .text-main, ol, footer {
+    color: white;
+}
+.text, a {
+    text-decoration: none;
+}
+/* box formatting*/
+body {
+    background-color: black;
+}
+
+header div {
+    display: inline-flex;
+}
+nav {
+    display: inline-block;
+    position: relative;
+    left: 7.5%;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+header ol {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+main {
+    background-color: #211111;
+    color: white;
+}
+article, section{
+    padding: 10px;
+}
+article {
+    width: 300px;
+    margin: auto;
+}
+section {
+    box-sizing: border-box;
+}
+
+footer > div {
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+img {
+    border: 5px solid grey;
+}
+
+/*ruler*/
+hr {
+    width: 5px;
+    height: 10px;
+    background-color: cyan;
+    border: 1px solid white;
+    transform: rotate(45deg);
+}
+
+/*links*/
+a:link {
+    color: violet;
+}
+a:visited {
+    color: white;
+}
+a:hover, a:focus {
+    color: red;
+}
+a:active {
+    color: cyan;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+/*content - padding - border - margin*/
