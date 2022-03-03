@@ -16,7 +16,7 @@ h2 {
 header > ol, footer {
     font-size: 14px;
 }
-.text-header, .text-main, ol, footer {
+.text-header, .text-main, ol, footer, header a{
     color: white;
 }
 .text, a {
@@ -84,16 +84,16 @@ hr {
 }
 
 /*links*/
-a:link {
+main a:link {
+    color: blue;
+}
+main a:visited {
     color: violet;
 }
-a:visited {
-    color: white;
-}
-a:hover, a:focus {
+main a:hover, a:focus {
     color: red;
 }
-a:active {
+main a:active {
     color: cyan;
 }
 
