@@ -1,4 +1,4 @@
-/* text formatting*/
+﻿/* text formatting*/
 .text-header {
     font-family: 'Book Antiqua';
     font-size: 18px;
@@ -29,7 +29,6 @@ body {
 
 header {
     width: fit-content;
-    margin: auto;
 }
     
 header div {
@@ -68,12 +67,15 @@ section {
 footer > div {
     width: fit-content;
     padding: 10px;
-    margin: auto;
 }
 img {
     border: 5px solid grey;
+    width: 100%;
 }
-
+/*auto-margin*/
+header, footer > div, img {
+    margin: auto;
+}
 /*ruler*/
 hr {
     width: 5px;
